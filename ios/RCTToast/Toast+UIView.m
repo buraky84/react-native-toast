@@ -183,7 +183,7 @@ static UIView *prevToast = NULL;
 
     UIView *activityView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CSToastActivityWidth, CSToastActivityHeight)];
     activityView.center = [self centerPointForPosition:position withToast:activityView withAddedPixelsY:0];
-    activityView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:CSToastOpacity];
+    activityView.backgroundColor = [[UIColor blueColor] colorWithAlphaComponent:CSToastOpacity];
     activityView.alpha = 0.0;
     activityView.autoresizingMask = (UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin);
     activityView.layer.cornerRadius = CSToastCornerRadius;
